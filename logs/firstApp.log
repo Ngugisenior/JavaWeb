@@ -1,0 +1,498 @@
+2021-02-16 15:03:35 INFO  PayController:56 - ---- Account List ----
+2021-02-16 15:03:35 INFO  PayController:57 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 15:03:35 INFO  PayController:57 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 15:03:35 INFO  PayController:57 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 15:03:35 INFO  PayController:57 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:16:57 INFO  PayController:57 - ---- Account List ----
+2021-02-16 16:16:57 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 16:16:57 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 16:16:57 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 16:16:57 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:16:57 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 16:17:51 INFO  PayController:57 - ---- Account List ----
+2021-02-16 16:17:51 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 16:17:51 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 16:17:51 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 16:17:51 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:17:51 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 16:22:52 INFO  PayController:57 - ---- Account List ----
+2021-02-16 16:22:52 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 16:22:52 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 16:22:52 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 16:22:52 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:22:52 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 16:23:59 INFO  PayController:57 - ---- Account List ----
+2021-02-16 16:23:59 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 16:23:59 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 16:23:59 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 16:23:59 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:23:59 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 16:27:47 INFO  PayController:57 - ---- Account List ----
+2021-02-16 16:27:47 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 16:27:47 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 16:27:47 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 16:27:47 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:27:47 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 16:27:47 INFO  PersonService:18 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+</PERSON>
+<ID>1</ID>
+</PERSON>
+<NAME>John Doe</NAME>
+</PERSON>
+<ADDRESS>New York 74th. street</ADDRESS>
+</PERSON>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 16:27:47 INFO  PersonService:18 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+</PERSON>
+<ID>2</ID>
+</PERSON>
+<NAME>Jane Doe</NAME>
+</PERSON>
+<ADDRESS>Los Angeles</ADDRESS>
+</PERSON>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 16:29:56 INFO  PayController:57 - ---- Account List ----
+2021-02-16 16:29:56 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 16:29:56 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 16:29:56 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 16:29:56 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:29:56 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 16:29:56 INFO  PersonService:18 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 16:29:56 INFO  PersonService:18 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 16:45:40 INFO  PayController:57 - ---- Account List ----
+2021-02-16 16:45:40 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 16:45:40 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 16:45:40 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 16:45:40 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:45:40 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 16:45:40 INFO  PersonService:18 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 16:45:40 INFO  PersonService:18 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 16:45:58 INFO  PayController:57 - ---- Account List ----
+2021-02-16 16:45:58 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 16:45:58 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 16:45:58 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 16:45:58 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:45:58 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 16:45:58 INFO  PersonService:18 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 16:45:58 INFO  PersonService:18 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 16:46:03 INFO  PayController:57 - ---- Account List ----
+2021-02-16 16:46:03 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 16:46:03 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 16:46:04 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 16:46:04 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 16:46:04 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 16:46:04 INFO  PersonService:18 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 16:46:04 INFO  PersonService:18 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:27:36 INFO  PayController:57 - ---- Account List ----
+2021-02-16 17:27:36 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 17:27:36 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 17:27:36 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 17:27:36 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 17:27:36 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 17:27:36 INFO  PersonService:18 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:27:36 INFO  PersonService:18 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:29:06 INFO  PayController:57 - ---- Account List ----
+2021-02-16 17:29:06 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 17:29:06 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 17:29:06 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 17:29:06 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 17:29:06 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 17:29:06 INFO  PersonService:18 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:29:06 INFO  PersonService:18 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:33:11 INFO  PayController:57 - ---- Account List ----
+2021-02-16 17:33:11 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 17:33:11 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 17:33:11 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 17:33:11 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 17:33:11 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 17:33:12 INFO  PersonService:20 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:33:12 INFO  PersonService:20 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:33:12 INFO  PayController:67 - ---- Json export of persons ------
+2021-02-16 17:33:12 INFO  PersonService:26 - Json of person Person(idNumber=John.D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"John.D. idnumber"
+}
+}
+
+2021-02-16 17:33:12 INFO  PersonService:26 - Json of person Person(idNumber=Jane D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"Jane D. idnumber"
+}
+}
+
+2021-02-16 17:39:10 INFO  PayController:57 - ---- Account List ----
+2021-02-16 17:39:10 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 17:39:10 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 17:39:10 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 17:39:10 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 17:39:10 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 17:39:10 INFO  PersonService:20 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:39:10 INFO  PersonService:20 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:39:10 INFO  PayController:67 - ---- Json export of persons ------
+2021-02-16 17:39:10 INFO  PersonService:26 - Json of person Person(idNumber=John.D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"John.D. idnumber"
+}
+}
+
+2021-02-16 17:39:10 INFO  PersonService:26 - Json of person Person(idNumber=Jane D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"Jane D. idnumber"
+}
+}
+
+2021-02-16 17:42:11 INFO  PayController:57 - ---- Account List ----
+2021-02-16 17:42:11 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 17:42:11 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 17:42:11 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 17:42:11 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 17:42:11 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 17:42:11 INFO  PersonService:20 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:42:11 INFO  PersonService:20 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:42:11 INFO  PayController:67 - ---- Json export of persons ------
+2021-02-16 17:42:11 INFO  PersonService:26 - Json of person Person(idNumber=John.D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"John.D. idnumber"
+}
+}
+
+2021-02-16 17:42:11 INFO  PersonService:26 - Json of person Person(idNumber=Jane D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"Jane D. idnumber"
+}
+}
+
+2021-02-16 17:42:34 INFO  PayController:57 - ---- Account List ----
+2021-02-16 17:42:34 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 17:42:34 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 17:42:34 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 17:42:34 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 17:42:34 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 17:42:34 INFO  PersonService:20 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:42:34 INFO  PersonService:20 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:42:34 INFO  PayController:67 - ---- Json export of persons ------
+2021-02-16 17:42:34 INFO  PersonService:26 - Json of person Person(idNumber=John.D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"John.D. idnumber",
+"ID" :"1",
+"NAME" :"John Doe",
+"ADDRESS" :"New York 74th. street",
+"AMOUNT" :"0"
+}
+}
+
+2021-02-16 17:42:34 INFO  PersonService:26 - Json of person Person(idNumber=Jane D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"Jane D. idnumber",
+"ID" :"2",
+"NAME" :"Jane Doe",
+"ADDRESS" :"Los Angeles",
+"AMOUNT" :"0"
+}
+}
+
+2021-02-16 17:44:13 INFO  PayController:57 - ---- Account List ----
+2021-02-16 17:44:13 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 17:44:13 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 17:44:13 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 17:44:13 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 17:44:13 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 17:44:13 INFO  PersonService:20 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:44:13 INFO  PersonService:20 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:44:13 INFO  PayController:67 - ---- Json export of persons ------
+2021-02-16 17:44:13 INFO  PersonService:26 - Json of person Person(idNumber=John.D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"John.D. idnumber",
+"ID" :"1",
+"NAME" :"John Doe",
+"ADDRESS" :"New York 74th. street",
+"AMOUNT" :"0"
+}
+}
+
+
+2021-02-16 17:44:13 INFO  PersonService:26 - Json of person Person(idNumber=Jane D. idnumber) is { "PERSON" : {
+"PERSONALIDNUMBER" :"Jane D. idnumber",
+"ID" :"2",
+"NAME" :"Jane Doe",
+"ADDRESS" :"Los Angeles",
+"AMOUNT" :"0"
+}
+}
+
+
+2021-02-16 17:45:16 INFO  PayController:57 - ---- Account List ----
+2021-02-16 17:45:16 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 17:45:16 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 17:45:16 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 17:45:16 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 17:45:16 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 17:45:16 INFO  PersonService:20 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:45:16 INFO  PersonService:20 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:45:16 INFO  PayController:67 - ---- Json export of persons ------
+2021-02-16 17:45:16 INFO  PersonService:26 - Json of person Person(idNumber=John.D. idnumber) is 
+{ "PERSON" : {
+"PERSONALIDNUMBER" :"John.D. idnumber",
+"ID" :"1",
+"NAME" :"John Doe",
+"ADDRESS" :"New York 74th. street",
+"AMOUNT" :"0"
+}
+}
+
+2021-02-16 17:45:16 INFO  PersonService:26 - Json of person Person(idNumber=Jane D. idnumber) is 
+{ "PERSON" : {
+"PERSONALIDNUMBER" :"Jane D. idnumber",
+"ID" :"2",
+"NAME" :"Jane Doe",
+"ADDRESS" :"Los Angeles",
+"AMOUNT" :"0"
+}
+}
+
+2021-02-16 17:46:45 INFO  PayController:57 - ---- Account List ----
+2021-02-16 17:46:45 INFO  PayController:58 - Person(idNumber=John.D. idnumber)'s amount is 0
+2021-02-16 17:46:45 INFO  PayController:58 - Person(idNumber=Jane D. idnumber)'s amount is 0
+2021-02-16 17:46:45 INFO  PayController:58 - Company(super=AbstractEntity(id=3, name=Google Inc., address=Frisco, amount=100000), taxNumber=G tax)'s amount is 100000
+2021-02-16 17:46:45 INFO  PayController:58 - Company(super=AbstractEntity(id=4, name=M$, address=Redmond, amount=1000000), taxNumber=M$ tax)'s amount is 1000000
+2021-02-16 17:46:45 INFO  PayController:61 - ---- XML export of persons ------
+2021-02-16 17:46:45 INFO  PersonService:20 - XML of person Person(idNumber=John.D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>John.D. idnumber</PERSONALIDNUMBER>
+<ID>1</ID>
+<NAME>John Doe</NAME>
+<ADDRESS>New York 74th. street</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:46:45 INFO  PersonService:20 - XML of person Person(idNumber=Jane D. idnumber) is <?xml version="1.0" ?>
+<PERSON>
+<PERSONALIDNUMBER>Jane D. idnumber</PERSONALIDNUMBER>
+<ID>2</ID>
+<NAME>Jane Doe</NAME>
+<ADDRESS>Los Angeles</ADDRESS>
+<AMOUNT>0</AMOUNT>
+</PERSON>
+
+2021-02-16 17:46:45 INFO  PayController:67 - ---- Json export of persons ------
+2021-02-16 17:46:45 INFO  PersonService:26 - Json of person Person(idNumber=John.D. idnumber) is 
+{ "PERSON" : {
+"PERSONALIDNUMBER" :"John.D. idnumber"
+,
+"ID" :"1"
+,
+"NAME" :"John Doe"
+,
+"ADDRESS" :"New York 74th. street"
+,
+"AMOUNT" :"0"
+
+}
+}
+
+2021-02-16 17:46:45 INFO  PersonService:26 - Json of person Person(idNumber=Jane D. idnumber) is 
+{ "PERSON" : {
+"PERSONALIDNUMBER" :"Jane D. idnumber"
+,
+"ID" :"2"
+,
+"NAME" :"Jane Doe"
+,
+"ADDRESS" :"Los Angeles"
+,
+"AMOUNT" :"0"
+
+}
+}
+
